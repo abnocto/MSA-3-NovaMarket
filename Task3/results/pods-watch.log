@@ -1,0 +1,17 @@
+EVENT      NAME                           READY   STATUS    RESTARTS   AGE
+ADDED      scaletestapp-8f8856bc8-6sbc5   1/1     Running   0          54s
+ADDED      scaletestapp-8f8856bc8-kvbsm   0/1     Pending   0          0s
+MODIFIED   scaletestapp-8f8856bc8-kvbsm   0/1     Pending   0          0s
+MODIFIED   scaletestapp-8f8856bc8-kvbsm   0/1     ContainerCreating   0          0s
+MODIFIED   scaletestapp-8f8856bc8-kvbsm   0/1     ContainerCreating   0          0s
+MODIFIED   scaletestapp-8f8856bc8-kvbsm   1/1     Running             0          0s
+ADDED      scaletestapp-8f8856bc8-4zq4j   0/1     Pending             0          0s
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   0/1     Pending             0          0s
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   0/1     ContainerCreating   0          0s
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   0/1     ContainerCreating   0          0s
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   1/1     Running             0          0s
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   1/1     Terminating         0          13m
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   1/1     Terminating         0          13m
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   0/1     Error               0          13m
+MODIFIED   scaletestapp-8f8856bc8-4zq4j   0/1     Error               0          13m
+DELETED    scaletestapp-8f8856bc8-4zq4j   0/1     Error               0          13m
