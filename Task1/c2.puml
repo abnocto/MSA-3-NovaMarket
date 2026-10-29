@@ -1,0 +1,106 @@
+@startuml c2
+
+!include <C4/C4_Container>
+
+title NovaMarket: диаграмма контейнеров (C2), MVP
+
+Person(buyer, "Покупатель")
+Person(seller, "Продавец")
+
+System_Ext(pay_ext, "Платежный шлюз", "Платежи, возвраты")
+System_Ext(dlv_ext, "Служба доставки")
+System_Ext(ntf_ext, "Провайдеры уведомлений", "Push")
+
+System_Boundary(nova, "NovaMarket (Kubernetes, события через Kafka)") {
+  Container(mobile, "Мобильное приложение", "iOS, Android")
+  Container(gw, "API Gateway", "NGINX")
+
+  Container(products, "Сервис товаров", "Node.js, PostgreSQL", "Описания товаров, цены, фото итд")
+  Container(reviews, "Сервис отзывов о товарах", "Node.js, PostgreSQL", "Отзывы о товарах")
+  Container(catalog, "Сервис каталога", "Node.js, PostgreSQL", "Модель чтения (CQRS): витрина товаров")
+  Container(cart, "Сервис корзины", "Node.js, PostgreSQL", "Корзины покупателей")
+  Container(users, "Сервис пользователей", "Node.js, PostgreSQL", "Профили, адреса доставки")
+
+  Container(orders, "Сервис заказов", "Node.js, PostgreSQL")
+  Container(inventory, "Сервис склада", "Node.js, PostgreSQL")
+  Container(payment, "Сервис оплаты", "Node.js, PostgreSQL")
+  Container(delivery, "Сервис доставки", "Node.js, PostgreSQL")
+  Container(notification, "Сервис уведомлений", "Node.js, PostgreSQL")
+
+  Container(egress, "Внешний прокси", "NGINX")
+}
+
+' --- Клиенты и синхронные вызовы
+Rel_D(buyer, mobile, "Покупки")
+Rel_D(seller, mobile, "Товары, остатки, заказы")
+Rel_D(mobile, gw, "Запросы", "HTTPS")
+
+Rel_D(gw, products, "Товары, цены", "REST")
+Rel_D(gw, reviews, "Отзывы", "REST")
+Rel_D(gw, catalog, "Витрина", "REST")
+Rel_D(gw, cart, "Корзина", "REST")
+Rel_D(gw, users, "Профиль, адреса", "REST")
+Rel_D(gw, orders, "Заказы", "REST")
+Rel_D(gw, inventory, "Остатки", "REST")
+
+' --- События (Kafka)
+Rel_D(products, catalog, "1, 2")
+Rel_D(products, orders, "1, 2")
+Rel_D(reviews, catalog, "3, 4")
+Rel_U(inventory, catalog, "5")
+Rel_D(users, notification, "6, 7")
+
+BiRel_R(orders, inventory, "8, 9-11")
+BiRel_D(orders, payment, "8, 13-16, 21, 22")
+BiRel_D(orders, delivery, "8, 17-20")
+BiRel_D(inventory, payment, "9-11, 13, 15, 16")
+BiRel_D(inventory, delivery, "10, 11, 18, 20")
+Rel_R(payment, delivery, "14-16")
+Rel_D(inventory, notification, "10, 11")
+Rel_D(payment, notification, "14-16, 21")
+Rel_D(delivery, notification, "17-20")
+
+' --- Вебхуки от внешних сервисов
+Rel_U(pay_ext, gw, "Вебхуки (для сервиса оплаты)", "HTTPS")
+Rel_U(dlv_ext, gw, "Вебхуки (для сервиса доставки)", "HTTPS")
+Rel_D(gw, payment, "Вебхуки", "REST")
+Rel_D(gw, delivery, "Вебхуки", "REST")
+
+' --- Исходящие вызовы
+Rel_D(payment, egress, "Платеж, отмена, возврат", "REST")
+Rel_D(delivery, egress, "Заявка на доставку", "REST")
+Rel_D(notification, egress, "Push", "REST")
+Rel_R(egress, pay_ext, "Платеж, отмена, возврат", "HTTPS")
+Rel_R(egress, dlv_ext, "Заявка на доставку", "HTTPS")
+Rel_D(egress, ntf_ext, "Push", "HTTPS")
+Rel_U(ntf_ext, buyer, "Push")
+Rel_U(ntf_ext, seller, "Push")
+
+legend right
+<b>События (Kafka)</b>
+|= № |= Событие |= Публикует |
+| 1 | Товар добавлен | Товары |
+| 2 | Товар изменен | Товары |
+| 3 | Отзыв добавлен | Отзывы |
+| 4 | Отзыв изменен | Отзывы |
+| 5 | Доступное количество изменено | Склад |
+| 6 | Пользователь добавлен | Пользователи |
+| 7 | Пользователь изменен | Пользователи |
+| 8 | Заказ создан | Заказы |
+| 9 | Резерв создан | Склад |
+| 10 | Резерв отклонен | Склад |
+| 11 | Резерв истек | Склад |
+| 12 | Резерв снят (подписчиков нет) | Склад |
+| 13 | Платеж создан | Оплата |
+| 14 | Оплата успешна | Оплата |
+| 15 | Оплата отклонена | Оплата |
+| 16 | Время на оплату истекло | Оплата |
+| 17 | Доставка запланирована | Доставка |
+| 18 | Доставка выполняется | Доставка |
+| 19 | Доставка успешна | Доставка |
+| 20 | Доставка не удалась | Доставка |
+| 21 | Возврат выполнен | Оплата |
+| 22 | Возврат не выполнен | Оплата |
+endlegend
+
+@enduml

@@ -1,0 +1,360 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1380" viewBox="0 0 1600 1380" style="background:#FFFFFF">
+<defs><marker id="arrowEnd" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#666666"/></marker><marker id="arrowStart" viewBox="0 0 10 10" refX="0" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#666666"/></marker></defs>
+<rect x="0" y="0" width="1600" height="1380" fill="#FFFFFF"/>
+<text x="600" y="22" font-family="sans-serif" font-size="16" font-weight="bold" font-style="normal" fill="#000000" text-anchor="middle">NovaMarket: диаграмма контейнеров (C2), MVP</text>
+<rect x="28" y="168" width="1146" height="1022" fill="none" stroke="#444444" stroke-width="1" stroke-dasharray="7,7"/>
+<text x="40" y="188" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#444444" text-anchor="start">NovaMarket</text>
+<text x="40" y="204" font-family="sans-serif" font-size="11" font-weight="bold" font-style="normal" fill="#444444" text-anchor="start">[Kubernetes, события через Kafka]</text>
+<path d="M380,117 L380,225 L440,225" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M380,117 L380,225 L440,225" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M700,117 L700,225 L640,225" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M700,117 L700,225 L640,225" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M540,260 L540,310" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M540,260 L540,310" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M330,1282 L14,1282 L14,318 L440,318" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M330,1282 L14,1282 L14,318 L440,318" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M1130,1282 L1186,1282 L1186,318 L640,318" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M1130,1282 L1186,1282 L1186,318 L640,318" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M440,333 L130,333 L130,440" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M440,333 L130,333 L130,440" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M480,370 L480,400 L380,400 L380,440" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M480,370 L480,400 L380,400 L380,440" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M540,370 L540,602" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M540,370 L540,602" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M600,370 L600,400 L760,400 L760,440" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M600,370 L600,400 L760,400 L760,440" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M640,362 L1000,362 L1000,440" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M640,362 L1000,362 L1000,440" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M640,348 L1150,348 L1150,805 L995,805" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M640,348 L1150,348 L1150,805 L995,805" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M440,362 L252,362 L252,795 L445,795" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M440,362 L252,362 L252,795 L445,795" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M640,333 L1170,333 L1170,985 L995,985" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M640,333 L1170,333 L1170,985 L995,985" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M380,540 L380,650 L440,650" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M380,540 L380,650 L440,650" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M700,540 L700,650 L640,650" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M700,540 L700,650 L640,650" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M820,540 L820,780" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M820,540 L820,780" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M540,780 L540,698" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M540,780 L540,698" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M635,800 L805,800" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M635,800 L805,800" fill="none" stroke="#666666" stroke-width="1.3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+<path d="M520,840 L520,960" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M520,840 L520,960" fill="none" stroke="#666666" stroke-width="1.3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+<path d="M940,840 L940,960" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M940,840 L940,960" fill="none" stroke="#666666" stroke-width="1.3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+<path d="M805,1000 L635,1000" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M805,1000 L635,1000" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M840,840 L840,878 L570,878 L570,960" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M840,840 L840,878 L570,878 L570,960" fill="none" stroke="#666666" stroke-width="1.3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+<path d="M605,840 L605,905 L870,905 L870,960" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M605,840 L605,905 L870,905 L870,960" fill="none" stroke="#666666" stroke-width="1.3" marker-start="url(#arrowStart)" marker-end="url(#arrowEnd)"/>
+<path d="M160,540 L160,1090" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M160,540 L160,1090" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M445,825 L290,825 L290,1090" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M445,825 L290,825 L290,1090" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M445,1010 L322,1010 L322,1090" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M445,1010 L322,1010 L322,1090" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M860,1020 L860,1050 L360,1050 L360,1110 L335,1110" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M860,1020 L860,1050 L360,1050 L360,1110 L335,1110" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M440,352 L240,352 L240,975 L445,975" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M440,352 L240,352 L240,975 L445,975" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M600,1020 L600,1100 L625,1100" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M600,1020 L600,1100 L625,1100" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M950,1020 L950,1062 L790,1062 L790,1090" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M950,1020 L950,1062 L790,1062 L790,1090" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M335,1135 L625,1135" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M335,1135 L625,1135" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M660,1150 L660,1220 L420,1220 L420,1252" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M660,1150 L660,1220 L420,1220 L420,1252" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M720,1150 L720,1247" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M720,1150 L720,1247" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M780,1150 L780,1220 L1040,1220 L1040,1247" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M780,1150 L780,1220 L1040,1220 L1040,1247" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M690,1317 L690,1350 L4,1350 L4,60 L295,60" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M690,1317 L690,1350 L4,1350 L4,60 L295,60" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<path d="M750,1317 L750,1350 L1196,1350 L1196,60 L785,60" fill="none" stroke="#FFFFFF" stroke-width="7"/>
+<path d="M750,1317 L750,1350 L1196,1350 L1196,60 L785,60" fill="none" stroke="#666666" stroke-width="1.3" marker-end="url(#arrowEnd)"/>
+<text x="385" y="160" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Товары, остатки, заказы</text>
+<text x="385" y="160" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Товары, остатки, заказы</text>
+<text x="695" y="160" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Покупки</text>
+<text x="695" y="160" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">Покупки</text>
+<text x="548" y="284" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Запросы</text>
+<text x="548" y="284" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Запросы</text>
+<text x="548" y="298" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="548" y="298" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[HTTPS]</text>
+<text x="24" y="1274" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Вебхуки (для сервиса доставки)</text>
+<text x="24" y="1274" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Вебхуки (для сервиса доставки)</text>
+<text x="24" y="1288" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="24" y="1288" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[HTTPS]</text>
+<text x="1194" y="1262" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Вебхуки (для сервиса</text>
+<text x="1194" y="1262" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Вебхуки (для сервиса</text>
+<text x="1194" y="1277" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">оплаты)</text>
+<text x="1194" y="1277" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">оплаты)</text>
+<text x="1194" y="1291" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="1194" y="1291" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[HTTPS]</text>
+<text x="122" y="400" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Профиль, адреса</text>
+<text x="122" y="400" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">Профиль, адреса</text>
+<text x="122" y="414" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="122" y="414" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="#666666">[REST]</text>
+<text x="390" y="422" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Отзывы</text>
+<text x="390" y="422" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Отзывы</text>
+<text x="390" y="436" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="390" y="436" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="548" y="560" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Витрина</text>
+<text x="548" y="560" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Витрина</text>
+<text x="548" y="574" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="548" y="574" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="770" y="422" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Товары, цены</text>
+<text x="770" y="422" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Товары, цены</text>
+<text x="770" y="436" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="770" y="436" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="1010" y="390" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Корзина</text>
+<text x="1010" y="390" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Корзина</text>
+<text x="1010" y="404" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="1010" y="404" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="1142" y="560" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Заказы</text>
+<text x="1142" y="560" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">Заказы</text>
+<text x="1142" y="574" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="1142" y="574" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="#666666">[REST]</text>
+<text x="260" y="700" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Остатки</text>
+<text x="260" y="700" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Остатки</text>
+<text x="260" y="714" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="260" y="714" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="1162" y="960" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Вебхуки</text>
+<text x="1162" y="960" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">Вебхуки</text>
+<text x="1162" y="974" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="1162" y="974" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="#666666">[REST]</text>
+<text x="372" y="600" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">3, 4</text>
+<text x="372" y="600" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">3, 4</text>
+<text x="708" y="600" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">1, 2</text>
+<text x="708" y="600" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">1, 2</text>
+<text x="828" y="660" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">1, 2</text>
+<text x="828" y="660" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">1, 2</text>
+<text x="548" y="745" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">5</text>
+<text x="548" y="745" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">5</text>
+<text x="720" y="792" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">8, 9-11</text>
+<text x="720" y="792" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">8, 9-11</text>
+<text x="512" y="885" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">10, 11,</text>
+<text x="512" y="885" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">10, 11,</text>
+<text x="512" y="900" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">18, 20</text>
+<text x="512" y="900" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">18, 20</text>
+<text x="948" y="885" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">8, 13-16,</text>
+<text x="948" y="885" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">8, 13-16,</text>
+<text x="948" y="900" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">21, 22</text>
+<text x="948" y="900" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">21, 22</text>
+<text x="720" y="993" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">14-16</text>
+<text x="720" y="993" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">14-16</text>
+<text x="705" y="871" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">8, 17-20</text>
+<text x="705" y="871" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">8, 17-20</text>
+<text x="735" y="920" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">9-11, 13, 15, 16</text>
+<text x="735" y="920" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">9-11, 13, 15, 16</text>
+<text x="152" y="820" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">6, 7</text>
+<text x="152" y="820" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">6, 7</text>
+<text x="284" y="1060" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">10, 11</text>
+<text x="284" y="1060" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">10, 11</text>
+<text x="330" y="1050" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">17-20</text>
+<text x="330" y="1050" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">17-20</text>
+<text x="480" y="1043" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">14-16, 21</text>
+<text x="480" y="1043" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">14-16, 21</text>
+<text x="248" y="960" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Вебхуки</text>
+<text x="248" y="960" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Вебхуки</text>
+<text x="248" y="974" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="248" y="974" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="592" y="1072" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Заявка на</text>
+<text x="592" y="1072" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">Заявка на</text>
+<text x="592" y="1087" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">доставку</text>
+<text x="592" y="1087" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="end" fill="#666666">доставку</text>
+<text x="592" y="1101" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="592" y="1101" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="end" fill="#666666">[REST]</text>
+<text x="958" y="1040" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Платеж, отмена,</text>
+<text x="958" y="1040" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Платеж, отмена,</text>
+<text x="958" y="1055" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">возврат</text>
+<text x="958" y="1055" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">возврат</text>
+<text x="958" y="1069" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="958" y="1069" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[REST]</text>
+<text x="480" y="1128" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Push</text>
+<text x="480" y="1128" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">Push</text>
+<text x="480" y="1142" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[REST]</text>
+<text x="480" y="1142" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="#666666">[REST]</text>
+<text x="540" y="1213" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Заявка на доставку</text>
+<text x="540" y="1213" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">Заявка на доставку</text>
+<text x="540" y="1227" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="540" y="1227" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="#666666">[HTTPS]</text>
+<text x="728" y="1200" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Push</text>
+<text x="728" y="1200" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="start" fill="#666666">Push</text>
+<text x="728" y="1214" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="728" y="1214" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="start" fill="#666666">[HTTPS]</text>
+<text x="910" y="1213" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Платеж, отмена, возврат</text>
+<text x="910" y="1213" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">Платеж, отмена, возврат</text>
+<text x="910" y="1227" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">[HTTPS]</text>
+<text x="910" y="1227" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" text-anchor="middle" fill="#666666">[HTTPS]</text>
+<text x="350" y="1343" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Push</text>
+<text x="350" y="1343" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">Push</text>
+<text x="970" y="1343" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linejoin="round">Push</text>
+<text x="970" y="1343" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" text-anchor="middle" fill="#666666">Push</text>
+<rect x="295.0" y="33.0" width="170" height="84" rx="12" fill="#08427B" stroke="#073B6F" stroke-width="1"/>
+<circle cx="380" cy="49.0" r="8" fill="#FFFFFF"/>
+<path d="M366,73.0 q0,-14 14,-14 q14,0 14,14 z" fill="#FFFFFF"/>
+<text x="380" y="96.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Продавец</text>
+<rect x="615.0" y="33.0" width="170" height="84" rx="12" fill="#08427B" stroke="#073B6F" stroke-width="1"/>
+<circle cx="700" cy="49.0" r="8" fill="#FFFFFF"/>
+<path d="M686,73.0 q0,-14 14,-14 q14,0 14,14 z" fill="#FFFFFF"/>
+<text x="700" y="96.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Покупатель</text>
+<rect x="440.0" y="204.0" width="200" height="56" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="540" y="232.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Мобильное приложение</text>
+<text x="540" y="247.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[iOS, Android]</text>
+<rect x="440.0" y="310.0" width="200" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="540" y="340.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">API Gateway</text>
+<text x="540" y="355.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[NGINX]</text>
+<rect x="35.0" y="440.0" width="190" height="100" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="130" y="459.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис</text>
+<text x="130" y="478.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">пользователей</text>
+<text x="130" y="493.5" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<text x="130" y="519.5" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Профили, адреса</text>
+<text x="130" y="535.5" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">доставки</text>
+<rect x="285.0" y="440.0" width="190" height="100" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="380" y="467.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис отзывов</text>
+<text x="380" y="486.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">о товарах</text>
+<text x="380" y="501.5" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<text x="380" y="527.5" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Отзывы о товарах</text>
+<rect x="665.0" y="440.0" width="190" height="100" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="760" y="469.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис товаров</text>
+<text x="760" y="484.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<text x="760" y="510.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Описания товаров,</text>
+<text x="760" y="526.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">цены, фото итд</text>
+<rect x="905.0" y="440.0" width="190" height="100" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="1000" y="477.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис корзины</text>
+<text x="1000" y="492.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<text x="1000" y="518.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Корзины покупателей</text>
+<rect x="440.0" y="602.0" width="200" height="96" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="540" y="629.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис каталога</text>
+<text x="540" y="644.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<text x="540" y="670.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Модель чтения (CQRS):</text>
+<text x="540" y="686.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">витрина товаров</text>
+<rect x="445.0" y="780.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="540" y="810.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис склада</text>
+<text x="540" y="825.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<rect x="805.0" y="780.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="900" y="810.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис заказов</text>
+<text x="900" y="825.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<rect x="445.0" y="960.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="540" y="990.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис доставки</text>
+<text x="540" y="1005.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<rect x="805.0" y="960.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="900" y="990.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис оплаты</text>
+<text x="900" y="1005.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<rect x="145.0" y="1090.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="240" y="1120.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Сервис уведомлений</text>
+<text x="240" y="1135.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[Node.js, PostgreSQL]</text>
+<rect x="625.0" y="1090.0" width="190" height="60" rx="3" fill="#438DD5" stroke="#3C7FC0" stroke-width="1"/>
+<text x="720" y="1120.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Внешний прокси</text>
+<text x="720" y="1135.0" font-family="sans-serif" font-size="11" font-weight="normal" font-style="italic" fill="#FFFFFF" text-anchor="middle">[NGINX]</text>
+<rect x="330.0" y="1252.0" width="180" height="60" rx="3" fill="#999999" stroke="#8A8A8A" stroke-width="1"/>
+<text x="420" y="1289.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Служба доставки</text>
+<rect x="630.0" y="1247.0" width="180" height="70" rx="3" fill="#999999" stroke="#8A8A8A" stroke-width="1"/>
+<text x="720" y="1267.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Провайдеры</text>
+<text x="720" y="1286.0" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">уведомлений</text>
+<text x="720" y="1312.0" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Push</text>
+<rect x="950.0" y="1247.0" width="180" height="70" rx="3" fill="#999999" stroke="#8A8A8A" stroke-width="1"/>
+<text x="1040" y="1276.5" font-family="sans-serif" font-size="15" font-weight="bold" font-style="normal" fill="#FFFFFF" text-anchor="middle">Платежный шлюз</text>
+<text x="1040" y="1302.5" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#FFFFFF" text-anchor="middle">Платежи, возвраты</text>
+<text x="1236" y="60" font-family="sans-serif" font-size="14" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">События (Kafka)</text>
+<rect x="1236" y="70" width="360" height="506" fill="#FFFFFF" stroke="#999999"/>
+<rect x="1236" y="70" width="360" height="22" fill="#EEEEEE" stroke="#999999"/>
+<text x="1242" y="85" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">№</text>
+<text x="1278" y="85" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">Событие</text>
+<text x="1500" y="85" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">Публикует</text>
+<line x1="1236" y1="92" x2="1596" y2="92" stroke="#DDDDDD"/>
+<text x="1242" y="107" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">1</text>
+<text x="1278" y="107" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Товар добавлен</text>
+<text x="1500" y="107" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Товары</text>
+<line x1="1236" y1="114" x2="1596" y2="114" stroke="#DDDDDD"/>
+<text x="1242" y="129" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">2</text>
+<text x="1278" y="129" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Товар изменен</text>
+<text x="1500" y="129" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Товары</text>
+<line x1="1236" y1="136" x2="1596" y2="136" stroke="#DDDDDD"/>
+<text x="1242" y="151" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">3</text>
+<text x="1278" y="151" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Отзыв добавлен</text>
+<text x="1500" y="151" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Отзывы</text>
+<line x1="1236" y1="158" x2="1596" y2="158" stroke="#DDDDDD"/>
+<text x="1242" y="173" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">4</text>
+<text x="1278" y="173" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Отзыв изменен</text>
+<text x="1500" y="173" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Отзывы</text>
+<line x1="1236" y1="180" x2="1596" y2="180" stroke="#DDDDDD"/>
+<text x="1242" y="195" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">5</text>
+<text x="1278" y="195" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доступное количество изменено</text>
+<text x="1500" y="195" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Склад</text>
+<line x1="1236" y1="202" x2="1596" y2="202" stroke="#DDDDDD"/>
+<text x="1242" y="217" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">6</text>
+<text x="1278" y="217" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Пользователь добавлен</text>
+<text x="1500" y="217" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Пользователи</text>
+<line x1="1236" y1="224" x2="1596" y2="224" stroke="#DDDDDD"/>
+<text x="1242" y="239" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">7</text>
+<text x="1278" y="239" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Пользователь изменен</text>
+<text x="1500" y="239" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Пользователи</text>
+<line x1="1236" y1="246" x2="1596" y2="246" stroke="#DDDDDD"/>
+<text x="1242" y="261" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">8</text>
+<text x="1278" y="261" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Заказ создан</text>
+<text x="1500" y="261" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Заказы</text>
+<line x1="1236" y1="268" x2="1596" y2="268" stroke="#DDDDDD"/>
+<text x="1242" y="283" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">9</text>
+<text x="1278" y="283" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Резерв создан</text>
+<text x="1500" y="283" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Склад</text>
+<line x1="1236" y1="290" x2="1596" y2="290" stroke="#DDDDDD"/>
+<text x="1242" y="305" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">10</text>
+<text x="1278" y="305" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Резерв отклонен</text>
+<text x="1500" y="305" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Склад</text>
+<line x1="1236" y1="312" x2="1596" y2="312" stroke="#DDDDDD"/>
+<text x="1242" y="327" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">11</text>
+<text x="1278" y="327" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Резерв истек</text>
+<text x="1500" y="327" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Склад</text>
+<line x1="1236" y1="334" x2="1596" y2="334" stroke="#DDDDDD"/>
+<text x="1242" y="349" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">12</text>
+<text x="1278" y="349" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Резерв снят (подписчиков нет)</text>
+<text x="1500" y="349" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Склад</text>
+<line x1="1236" y1="356" x2="1596" y2="356" stroke="#DDDDDD"/>
+<text x="1242" y="371" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">13</text>
+<text x="1278" y="371" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Платеж создан</text>
+<text x="1500" y="371" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1236" y1="378" x2="1596" y2="378" stroke="#DDDDDD"/>
+<text x="1242" y="393" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">14</text>
+<text x="1278" y="393" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата успешна</text>
+<text x="1500" y="393" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1236" y1="400" x2="1596" y2="400" stroke="#DDDDDD"/>
+<text x="1242" y="415" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">15</text>
+<text x="1278" y="415" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата отклонена</text>
+<text x="1500" y="415" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1236" y1="422" x2="1596" y2="422" stroke="#DDDDDD"/>
+<text x="1242" y="437" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">16</text>
+<text x="1278" y="437" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Время на оплату истекло</text>
+<text x="1500" y="437" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1236" y1="444" x2="1596" y2="444" stroke="#DDDDDD"/>
+<text x="1242" y="459" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">17</text>
+<text x="1278" y="459" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка запланирована</text>
+<text x="1500" y="459" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка</text>
+<line x1="1236" y1="466" x2="1596" y2="466" stroke="#DDDDDD"/>
+<text x="1242" y="481" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">18</text>
+<text x="1278" y="481" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка выполняется</text>
+<text x="1500" y="481" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка</text>
+<line x1="1236" y1="488" x2="1596" y2="488" stroke="#DDDDDD"/>
+<text x="1242" y="503" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">19</text>
+<text x="1278" y="503" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка успешна</text>
+<text x="1500" y="503" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка</text>
+<line x1="1236" y1="510" x2="1596" y2="510" stroke="#DDDDDD"/>
+<text x="1242" y="525" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">20</text>
+<text x="1278" y="525" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка не удалась</text>
+<text x="1500" y="525" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Доставка</text>
+<line x1="1236" y1="532" x2="1596" y2="532" stroke="#DDDDDD"/>
+<text x="1242" y="547" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">21</text>
+<text x="1278" y="547" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Возврат выполнен</text>
+<text x="1500" y="547" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1236" y1="554" x2="1596" y2="554" stroke="#DDDDDD"/>
+<text x="1242" y="569" font-family="sans-serif" font-size="12" font-weight="bold" font-style="normal" fill="#000000" text-anchor="start">22</text>
+<text x="1278" y="569" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Возврат не выполнен</text>
+<text x="1500" y="569" font-family="sans-serif" font-size="12" font-weight="normal" font-style="normal" fill="#000000" text-anchor="start">Оплата</text>
+<line x1="1272" y1="70" x2="1272" y2="576" stroke="#DDDDDD"/>
+<line x1="1494" y1="70" x2="1494" y2="576" stroke="#DDDDDD"/>
+</svg>
